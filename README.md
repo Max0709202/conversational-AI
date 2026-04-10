@@ -64,6 +64,15 @@ pip install -r requirements.txt
 streamlit run main.py
 ```
 
+or
+
+```bash
+py -m pip install -r requirements.txt
+py -m streamlit run api/main.py
+```
+
+depends on python version
+
 Open the URL Streamlit prints (usually `http://localhost:8501`), enter a message, and click **Run flow**.
 
 ## How the app calls Langflow

@@ -5,12 +5,7 @@ from dotenv import load_dotenv
 import os
 from fastapi import FastAPI
 
-app = FastAPI()
 
-@app.get("/")
-def home():
-    return {"message": "ok"}
-    
 load_dotenv()
 
 BASE_API_URL = "https://api.langflow.astra.datastax.com"
